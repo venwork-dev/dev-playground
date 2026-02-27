@@ -24,7 +24,7 @@ jobs:
         uses: venwork-dev/bundlecheck-audit-action@v0.4.0
         with:
           api_key: ${{ secrets.BUNDLECHECK_API_KEY }}
-          per_package_gzip: 50000
+          per_package_gzip: 20000
           total_gzip: 120000
           fail_on_violation: true
           fail_on_partial: true
