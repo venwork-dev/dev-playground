@@ -5,6 +5,7 @@
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
-    "hono": "^4.12.3"
+    "hono": "^4.12.3",
+    "moment": "^2.30.1"
   }
 }

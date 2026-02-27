@@ -30,7 +30,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
-          ["hono", "npm:4.12.3"]\
+          ["hono", "npm:4.12.3"],\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -50,7 +51,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
-          ["hono", "npm:4.12.3"]\
+          ["hono", "npm:4.12.3"],\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -60,6 +62,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../.yarn/berry/cache/hono-npm-4.12.3-32b35c0a2a-10c0.zip/node_modules/hono/",\
         "packageDependencies": [\
           ["hono", "npm:4.12.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["moment", [\
+      ["npm:2.30.1", {\
+        "packageLocation": "../.yarn/berry/cache/moment-npm-2.30.1-1c51a5c631-10c0.zip/node_modules/moment/",\
+        "packageDependencies": [\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "HARD"\
       }]\
