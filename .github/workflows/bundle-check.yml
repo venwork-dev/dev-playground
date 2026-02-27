@@ -17,12 +17,9 @@ jobs:
     steps:
       - name: Run BundleCheck
         id: audit
-        uses: venwork-dev/bundlecheck-audit-action@v0.3.0
+        uses: venwork-dev/bundlecheck-audit-action@v0.4.0
         with:
           api_key: ${{ secrets.BUNDLECHECK_API_KEY }}
-          packages: |
-            react@18.2.0
-            axios@1.6.7
           per_package_gzip: 50000
           total_gzip: 120000
           fail_on_violation: true
