@@ -15,12 +15,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v6
+        with:
+            fetch-depth: 0
+
       - name: Run BundleCheck
         id: audit
-        uses: venwork-dev/bundlecheck-audit-action@v0.4.0
+        uses: venwork-dev/bundlecheck-audit-action@v0.5.0
         with:
           api_key: ${{ secrets.BUNDLECHECK_API_KEY }}
-          per_package_gzip: 50000
+          lockfile_path: yarn.lock
+          per_package_gzip: 20000
           total_gzip: 120000
           fail_on_violation: true
           fail_on_partial: true
