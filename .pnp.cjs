@@ -31,8 +31,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
           ["hono", "npm:4.12.3"],\
-          ["moment", "npm:2.30.1"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -53,8 +52,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
           ["hono", "npm:4.12.3"],\
-          ["moment", "npm:2.30.1"],\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
+          ["moment", "npm:2.30.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -73,15 +71,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../.yarn/berry/cache/moment-npm-2.30.1-1c51a5c631-10c0.zip/node_modules/moment/",\
         "packageDependencies": [\
           ["moment", "npm:2.30.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["typescript", [\
-      ["patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5", {\
-        "packageLocation": "../.yarn/berry/cache/typescript-patch-6fda4d02cf-10c0.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
