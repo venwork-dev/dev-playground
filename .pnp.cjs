@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
           ["hono", "npm:4.12.3"],\
-          ["moment", "npm:2.30.1"]\
+          ["react", "npm:19.2.4"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["date-fns", "npm:4.1.0"],\
           ["dev-playground", "workspace:."],\
           ["hono", "npm:4.12.3"],\
-          ["moment", "npm:2.30.1"]\
+          ["react", "npm:19.2.4"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -66,11 +66,11 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["moment", [\
-      ["npm:2.30.1", {\
-        "packageLocation": "../.yarn/berry/cache/moment-npm-2.30.1-1c51a5c631-10c0.zip/node_modules/moment/",\
+    ["react", [\
+      ["npm:19.2.4", {\
+        "packageLocation": "../.yarn/berry/cache/react-npm-19.2.4-d29a5aac4d-10c0.zip/node_modules/react/",\
         "packageDependencies": [\
-          ["moment", "npm:2.30.1"]\
+          ["react", "npm:19.2.4"]\
         ],\
         "linkType": "HARD"\
       }]\

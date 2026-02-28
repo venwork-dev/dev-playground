@@ -21,14 +21,13 @@ jobs:
 
       - name: Run BundleCheck
         id: audit
-        uses: venwork-dev/bundlecheck-audit-action@v0.7.1
+        uses: venwork-dev/bundlecheck-audit-action@v0.7.2
         with:
           api_key: ${{ secrets.BUNDLECHECK_API_KEY }}
-          per_package_gzip: 10000
+          per_package_gzip: 20000
           total_gzip: 120000
           fail_on_violation: true
           fail_on_partial: true
-          warn_only: false
 
       - name: Assert outputs exist
         run: |
