@@ -28,18 +28,51 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["dev-playground", "workspace:."]\
+          ["date-fns", "npm:4.1.0"],\
+          ["dev-playground", "workspace:."],\
+          ["hono", "npm:4.12.3"],\
+          ["react", "npm:19.2.4"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["date-fns", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../.yarn/berry/cache/date-fns-npm-4.1.0-764604ee0f-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["dev-playground", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["dev-playground", "workspace:."]\
+          ["date-fns", "npm:4.1.0"],\
+          ["dev-playground", "workspace:."],\
+          ["hono", "npm:4.12.3"],\
+          ["react", "npm:19.2.4"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["hono", [\
+      ["npm:4.12.3", {\
+        "packageLocation": "../.yarn/berry/cache/hono-npm-4.12.3-32b35c0a2a-10c0.zip/node_modules/hono/",\
+        "packageDependencies": [\
+          ["hono", "npm:4.12.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react", [\
+      ["npm:19.2.4", {\
+        "packageLocation": "../.yarn/berry/cache/react-npm-19.2.4-d29a5aac4d-10c0.zip/node_modules/react/",\
+        "packageDependencies": [\
+          ["react", "npm:19.2.4"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]]\
   ]\
