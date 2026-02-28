@@ -21,10 +21,9 @@ jobs:
 
       - name: Run BundleCheck
         id: audit
-        uses: venwork-dev/bundlecheck-audit-action@v0.7.0
+        uses: venwork-dev/bundlecheck-audit-action@v0.7.1
         with:
           api_key: ${{ secrets.BUNDLECHECK_API_KEY }}
-          lockfile_path: yarn.lock
           per_package_gzip: 20000
           total_gzip: 120000
           fail_on_violation: true
